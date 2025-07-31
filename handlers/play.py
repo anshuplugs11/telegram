@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "RiZoeL"
+        user.first_name = "anshuplugs"
     usar = user
     wew = usar.id
     try:
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**RiZoeL Music assistant joined this group for play music 🎵**")
+                        message.chat.id, "**anshuplugs Music assistant joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="• Channel •",
-                        url="https://t.me/RiZoeLX")
+                        url="https://t.me/dickcutter")
                    
                 ]
             ]
